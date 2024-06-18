@@ -1,0 +1,37 @@
+body {
+    background-color: aquamarine;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+#login {
+    float: right;
+}
+li {
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    width: 100%;
+    background-color: white;
+}
+.inner {
+    height: 80vh;
+    width: 50%;
+    background-color: red;
+}
+#bg-img {
+    background-image: url('https://www.carandbike.com/_next/image?url=https%3A%2F%2Fimages.carandbike.com%2Fcar-images%2Fbig%2Fhyundai%2Fcreta%2Fhyundai-creta.jpg%3Fv%3D92&w=3840&q=75');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
